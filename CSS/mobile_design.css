@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    background-color: white;
+    position: relative;
+    top: 150px;
+    border-radius: 15px;
+}
+
+.heading {
+    margin: 20px 0px;
+    color: hsl(212, 21%, 14%);
+}
+
+.details p:nth-child(1) {
+    letter-spacing: 4px;
+    color: hsl(228, 12%, 48%);
+}
+
+.describe {
+    line-height: 1.5;
+    color: hsl(228, 12%, 48%);
+}
+
+.image1 img {
+    display: none;
+}
+
+.image2 img {
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.details {
+    padding: 30px;
+}
+
+.rates {
+    display: flex;
+    margin: 25px 0px;
+}
+
+.discounted {
+    color: hsl(158, 36%, 37%);
+}
+
+.mrp {
+    text-decoration: line-through;
+    position: relative;
+    left: 15%;
+    top: 10px;
+    font-size: small;
+    color: hsl(228, 12%, 48%);
+}
+
+.btn {
+    padding: 15px;
+    text-align: center;
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+
+.cart {
+    margin-left: 10px;
+}
+
+.font1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font2 {
+    font-family: 'Fraunces', serif;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: hsl(158, 69%, 19%);
+}
